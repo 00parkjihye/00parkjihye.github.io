@@ -26,7 +26,7 @@ sass:
     style: compressed
 
 # Comments
-disqus_shortname: 00parkjihye
+# disqus_shortname:
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,7 +38,7 @@ disqus_shortname: 00parkjihye
 #ad-slot:
 #bing-verify:
 email: 00park.jihye@gmail.com
-#twitter: username
+twitter: 00_kayla_00
 #facebook: username
 github-url: 00parkjihye
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
