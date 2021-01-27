@@ -1,6 +1,4 @@
 ---
-
-
 ---
 
 <h1 id="python">Python</h1>
@@ -52,7 +50,7 @@ ex&gt; my_name: 공백이 아닌, 언더스코어(_)로 구분.</li>
 def some_function_name():  
     print("Hello!")  
 </code></pre>
-<h5 id="상수-이름은-대문자">1-2) 상수 이름은 ‘대문자’</h5>
+<h4 id="상수-이름은-대문자">1-2) 상수 이름은 ‘대문자’</h4>
 <pre><code>SOME_CONSTANT_NAME = 3.14  
 </code></pre>
 <h4 id="의미있는-이름--a-b같은-이름x">1-3) ‘의미있는 이름’  (a, b같은 이름x)</h4>
@@ -114,4 +112,3 @@ print(6.28*8)  # 50.24
 print(3.14*8*8)  # 200.96  
 # 무엇을 위한 코드인지, 숫자들이 무엇을 의미하는지 알 수 없다
 </code></pre>
-
