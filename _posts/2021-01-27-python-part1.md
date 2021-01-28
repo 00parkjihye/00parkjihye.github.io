@@ -1,32 +1,34 @@
 ---
+
+
 ---
 
 <h1 id="python">Python</h1>
 <p><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" alt="python logo"></p>
-<h4 id="python-page파이썬-공식-홈페이지---httpswww.python.org">python page(파이썬 공식 홈페이지) - <a href="https://www.python.org/">https://www.python.org/</a></h4>
+<h4 id="python-page파이썬-공식-홈페이지-httpswww.python.org">Python Page(파이썬 공식 홈페이지): <a href="https://www.python.org/">https://www.python.org/</a></h4>
 <h4 id="pep-8---style-guide-for-python-code-파이썬-공식-스타일가이드-httpswww.python.orgdevpepspep-0008">PEP 8 - Style Guide for Python Code (파이썬 공식 스타일가이드): <a href="https://www.python.org/dev/peps/pep-0008/">https://www.python.org/dev/peps/pep-0008/</a></h4>
 <hr>
 <h5 id="스타일가이드-한글-번역-블로그-httpskongdols-room.tistory.com18">스타일가이드 한글 번역 블로그: <a href="https://kongdols-room.tistory.com/18">https://kongdols-room.tistory.com/18</a></h5>
-<h5 id="내용-중-일부-출처-점프투파이썬--httpswikidocs.net13">내용 중 일부 출처: 점프투파이썬  <a href="https://wikidocs.net/13">https://wikidocs.net/13</a></h5>
+<h5 id="내용-중-일부-출처-httpswikidocs.net13">내용 중 일부 출처: <a href="https://wikidocs.net/13">https://wikidocs.net/13</a></h5>
 <h5 id="내용-중-일부-출처-httpswww.codingfactory.net11753">내용 중 일부 출처: <a href="https://www.codingfactory.net/11753">https://www.codingfactory.net/11753</a></h5>
 <h5 id="내용-중-일부-출처-httpsterms.naver.comentry.nhndocid3580815cid59088categoryid59096">내용 중 일부 출처: <a href="https://terms.naver.com/entry.nhn?docId=3580815&amp;cid=59088&amp;categoryId=59096">https://terms.naver.com/entry.nhn?docId=3580815&amp;cid=59088&amp;categoryId=59096</a></h5>
 <hr>
 <h3 id="파이썬">[파이썬?]</h3>
-<p>파이썬은 1991년 네덜란드 개발자 귀도 반 로섬(Guido  van  Rossum)이  발표한 고급 프로그래밍 언어로, 인터프리터식, 객체지향적, 동적 타이핑 대화형 언어이다.  ‘파이썬(Python)’이란 원래 그리스 신화에 나오는 뱀 이름으로 파이썬 로고에 두 개의 뱀 그림이 있다. 파이썬 홈페이지에 따르면 “귀도 반 로섬은 짧고, 특별하고, 미스터리한 느낌의 단어를 찾았다”며 “그래서 파이썬이란 이름을 결정했다”라고 되어있다.</p>
+<p>파이썬은 1991년 네덜란드 개발자 귀도 반 로섬(Guido  van  Rossum)이  발표한 고급 프로그래밍 언어로, 인터프리터식, 객체지향적, 동적 타이핑 대화형 언어이다.  ‘파이썬(Python)’이란 원래 그리스 신화에 나오는 뱀 이름으로 파이썬 로고에 두 개의 뱀 그림이 있다. 파이썬 홈페이지에 따르면 “귀도 반 로섬은 짧고, 특별하고, 미스터리한 느낌의 단어를 찾았다”며 “그래서 파이썬이란 이름을 결정했다”라고 되어있다</p>
 <hr>
 <h3 id="기본용어">[기본용어]</h3>
 <ul>
-<li>프로그래밍(Programming): 계산할 수식을 컴퓨터에 알려줌.</li>
-<li>소스 코드 (source code): 사람들이 쉽게 읽고 이해하도록 프로그래밍 언어로 작성한 코드. 프로그래밍 언어로 소스코드를 만들고, 이를 컴퓨터가 이해하는 이진코드로 바꾼다.</li>
-<li>토큰(Token): 공백, 쉼표, 마침표 등으로 분리할 수 없는 가장 작은 단위.  (토큰 &gt; 식별자(Identifier): 함수, 변수)<br>
-ex&gt; my_name: 공백이 아닌, 언더스코어(_)로 구분.</li>
-<li>코멘트(Comment): 복잡한 코드설명 및 다른 개발자들과 소통</li>
-<li>할당(지정)연산자(Assignment Operator): = 우측 값을 좌측(변수)에 할당(지정).</li>
-<li>비교연산자(Comparison Operator): == 값이 동일하다  &lt;-&gt; != 값이 동일하지 않다</li>
-<li>세계 표준시(UTC): 세계표준시(UTC)로 1970년 1월 1일 0시 0분 0초를 기준으로 몇 초가 지났는지를 정수로 나타냄.</li>
-<li>인터프리터(interpreter): 프로그래밍 소스코드를 실행시켜주는 프로그램. 한 번에 한 줄씩 읽어 실행하며, 파이썬의 경우 ‘파이썬 인터프리터’</li>
-<li>자료형(Data Type): 자료 형태로 사용하는 모든 것. 프로그램의 기본이자 핵심단위가 바로 ‘자료형’ 이다.</li>
-<li>추상화(Abstraction): 복잡한 내용을 숨겨, 주요기능에만 신경쓰도록 함.</li>
+<li><strong>프로그래밍(Programming):</strong> 계산할 수식을 컴퓨터에 알려줌</li>
+<li><strong>소스 코드 (source code):</strong> 사람들이 쉽게 읽고 이해하도록 프로그래밍 언어로 작성한 코드. 프로그래밍 언어로 소스코드를 만들고, 이를 컴퓨터가 이해하는 이진코드로 바꾼다</li>
+<li><strong>토큰(Token):</strong> 공백, 쉼표, 마침표 등으로 분리할 수 없는 가장 작은 단위  (토큰 &gt; 식별자(Identifier): 함수, 변수)<br>
+ex&gt; my_name: 공백이 아닌, 언더스코어<kbd>_</kbd> 로 구분</li>
+<li><strong>코멘트(Comment):</strong> 복잡한 코드설명 및 다른 개발자들과 소통</li>
+<li><strong>할당(지정)연산자(Assignment Operator):</strong> <kbd>=</kbd> 우측 값을 좌측(변수)에 할당(지정)</li>
+<li><strong>비교연산자(Comparison Operator):</strong> <kbd>==</kbd>  값이 동일하다  &lt;-&gt; <kbd>!=</kbd> 값이 동일하지 않다</li>
+<li><strong>세계 표준시(UTC):</strong> 세계표준시(UTC)로 1970년 1월 1일 0시 0분 0초를 기준으로 몇 초가 지났는지를 정수로 나타내는 시간</li>
+<li><strong>인터프리터(interpreter):</strong> 프로그래밍 소스코드를 실행시켜주는 프로그램. 한 번에 한 줄씩 읽어 실행하며, 파이썬의 경우 ‘파이썬 인터프리터’</li>
+<li><strong>자료형(Data Type):</strong> 자료 형태로 사용하는 모든 것. 프로그램의 기본이자 핵심단위가 바로 ‘자료형’</li>
+<li><strong>추상화(Abstraction):</strong> 복잡한 내용을 숨겨, 주요기능에만 신경쓰도록 함</li>
 </ul>
 <hr>
 <h3 id="기본개념">[기본개념]</h3>
@@ -45,7 +47,7 @@ ex&gt; my_name: 공백이 아닌, 언더스코어(_)로 구분.</li>
 </ul>
 <hr>
 <h2 id="pep-8--style-guide-中-중요포인트">[PEP 8 : Style Guide 中 중요포인트]</h2>
-<h3 id="이름-변수함수-이름은-소문자--여러단어는-_언더바로-연결">1) 이름: 변수/함수 이름은 ‘소문자’ + 여러단어는 '_(언더바)'로 연결</h3>
+<h3 id="이름-변수함수-이름은-소문자--여러단어는-kbd_kbd로-연결">1) 이름: 변수/함수 이름은 ‘소문자’ + 여러단어는 '<kbd>_</kbd>'로 연결</h3>
 <pre><code>some_variable_name = 1  
 def some_function_name():  
     print("Hello!")  
@@ -91,7 +93,7 @@ print(a , b)  # bad
 <pre><code>x = x + 1  
 x += 1  # 위와 같은 의미를 가진 식
 </code></pre>
-<h3 id="하지만-연산의-우선순위-강조시-연산자-앞뒤-붙여쓰기-권장">9) 하지만, 연산의 ‘우선순위’ 강조시 연산자 앞,뒤 붙여쓰기 권장</h3>
+<h3 id="연산의-우선순위-강조시-연산자-앞뒤-붙여쓰기-권장">9) 연산의 ‘우선순위’ 강조시 연산자 앞,뒤 붙여쓰기 권장</h3>
 <pre><code>x = x*2 - 1  
 x = x*x + x*x  
 c = (x+x) * (x-x)  
@@ -101,7 +103,7 @@ c = (x+x) * (x-x)
 <pre><code>x = x + 1  # 코멘트 
 </code></pre>
 <hr>
-<h3 id="코딩스타일-이해하기-쉽고-가독성이-좋은-코드--좋은-스타일의-코드">코딩스타일: 이해하기 쉽고 가독성이 좋은 코드 &gt; 좋은 스타일의 코드</h3>
+<h3 id="코딩스타일-이해-쉽고-가독성-좋은-코드--좋은-스타일의-코드">코딩스타일: 이해 쉽고 가독성 좋은 코드 &gt; 좋은 스타일의 코드</h3>
 <h4 id="좋은-코딩스타일-숫자를-변수에-넣어-사용-적절한-함수사용-및-코멘트로-설명을-달아주어-알아보고-이해하기-쉬운-경우">좋은 코딩스타일: 숫자를 변수에 넣어 사용, 적절한 함수사용 및 코멘트로 설명을 달아주어 알아보고 이해하기 쉬운 경우</h4>
 <pre><code>PI = 3.14  # 이것은 원주율(파이)를 나타냄
 </code></pre>
@@ -112,3 +114,4 @@ print(6.28*8)  # 50.24
 print(3.14*8*8)  # 200.96  
 # 무엇을 위한 코드인지, 숫자들이 무엇을 의미하는지 알 수 없다
 </code></pre>
+
