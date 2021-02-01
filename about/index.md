@@ -13,6 +13,7 @@ comments: false
 -   html
 -   css
 -   java script
+-   python
 -   java
 
 <!-- ## Preview
