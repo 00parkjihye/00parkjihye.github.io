@@ -1,4 +1,5 @@
-# </> Blog for TIL
+# </> Blog for personal record TIL
 
 ## Currently Studying...
+
 html & css, java script, python and java...
