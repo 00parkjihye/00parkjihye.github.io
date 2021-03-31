@@ -77,8 +77,8 @@
 <p>만약 다음처럼 코딩시 컴파일시 오류가 발생한다</p>
 <pre><code>HouseDog dog = new HouseDog();
 </code></pre>
-<p>이유는 객체 생성방법이 생성자의 규칙과 맞지않기 때문<br>
-생성자가 선언된 경우 생성자의 규칙대로만 객체를 생성할 수 있다</p>
+<p>객체 생성방법이 생성자의 규칙과 맞지않기 때문<br>
+생성자가 선언된 경우 생성자의 규칙대로만 객체 생성가능</p>
 <p>다음은 생성자가 적용된 완성된 HouseDog클래스</p>
 <pre><code>public class HouseDog extends Dog {
     public HouseDog(String name) {
@@ -102,7 +102,7 @@
 <p>결과:</p>
 <pre><code>happy
 </code></pre>
-<p>이렇듯 생성자 사용시 이득은  <code>setName("happy")</code>같은 필수적인 행동을 객체생성시 제어할 수 있게 된다</p>
+<p>이렇듯 생성자 사용시 이득은  <code>setName("happy")</code>같은 필수적인 행동을 객체생성시 제어할 수 있게 됨</p>
 <h3 id="default-생성자">default 생성자</h3>
 <pre><code>public class Dog extends Animal {
     public void sleep() {
